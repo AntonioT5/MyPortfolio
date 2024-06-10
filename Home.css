@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+.nav_levo li{
+    display: inline-block;
+    margin: 15px;
+}
+.nav_levo li a{
+    text-decoration: none;
+    color: black;
+}
+.nav_levo li a:hover{
+    color: #C4DFE6;
+}
+.nav_levo li:last-child{
+    margin-right: -10px;
+}
+.nav_desno li{
+    display: inline-block;
+    margin: 15px;
+}
+.nav_desno li a{
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+    font-family: "Oswald", serif;
+}
+.nav_desno li a:hover{
+    color: #C4DFE6;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    height: 570px;
+    background-color: #C4DFE6;
+}
+.moe_ime{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 2px 5px 10px gray;
+}
+.moe_ime h1{
+    font-family: "Oswald", serif;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.moe_ime p{
+    font-family: "Oswald", serif;
+    text-align: left;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 530px;
+    background-color: white;
+}
+.container2 > div{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.container2 h1 {
+    font-family: "Oswald", serif;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.frame{
+    display: inline-block;
+    height: auto;
+    width: 300px;
+    background-color: #C4DFE6;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 2px 5px 10px lightgrey;
+}
+.frame{
+    font-family: "Oswald", serif;
+}
+.frame h2{
+    margin-bottom: 10px;
+}
+.container3{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: #C4DFE6;
+}
+.leftside{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 250px;
+    font-family: "Oswald", serif;
+}
+.leftside>div{
+    display: inline-block;
+    width: 500px;
+}
+.leftside div ul li{
+    margin-bottom: 10px;
+}
+.leftside > div h1{
+    margin-bottom: 20px;
+}
+.rightside{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 250px;
+    font-family: "Oswald", serif;
+    margin-bottom: 50px;
+}
+.rightside>div{
+    display: inline-block;
+    width: 500px;
+}
+li::marker{
+    color: white;
+}
+.rightside div ul li{
+    margin-bottom: 10px;
+}
+.rightside > div h1{
+    margin-bottom: 20px;
+}
+.container4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.container4 p{
+    background-color: #C4DFE6;
+    display: inline-block;
+    padding: 20px;
+    width: 700px;
+    height: auto;
+    text-align: center;
+    font-family: "Oswald", serif;
+    border-radius: 20px;
+}
+#Contact > p > a{
+    color: white;
+}
